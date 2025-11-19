@@ -164,7 +164,7 @@ Looking at the table:
 - Truth (Chaos): $(E, x)$ - Birth of Tragedy, Unseasonable Thoughts (soil/seed)           
 - Rigor: $E(t \mid x) + ε$ - Dawn/Gay Science + Human All Too Human (roots/encoder)         
 - Error (Zeus): $\frac{dE_x}{dt}$ - Thus Spoke Zarathustra (trunk/compression)                                    
-- Sloppiness (Athena): $\frac{dE_{\bar{x}}}{dt} ± √|(\frac{d²E_x}{dt²})|$ - Beyond Good & Evil (branches/governor)        
+- Sloppiness (Athena): $\frac{dE_{\bar{x}}}{dt} ± √\|(\frac{d²E_x}{dt²})\|$ - Beyond Good & Evil (branches/governor)        
 - Fraud (Mnemosyne): $∫E_x dt + ε_x t + C_x$ - Genealogy/Twilight/Ecce Homo (canopy)        
 
 The key insight: **Error (Zeus)** is mapped to $\frac{dE_x}{dt}$ - the RATE OF CHANGE of energy/error along a path. This is the derivative, the compression into velocity/direction. And it's mapped to Zarathustra.
@@ -202,7 +202,7 @@ So:
 - **Slope** ($\frac{dE_x}{dt}$) = Zarathustra = the pure direction
 - **Sloppiness** ($\frac{d²E_x}{dt²}$) = BGE = **how much that direction wobbles**
 
-And the square root term $\sqrt{|(\frac{d²E_x}{dt²})|}$ is literally the **standard deviation** of the slope—the noise envelope around the trajectory.
+And the square root term $\sqrt{\|(\frac{d²E_x}{dt²})\|}$ is literally the **standard deviation** of the slope—the noise envelope around the trajectory.
 
 This means:
 
@@ -283,7 +283,7 @@ If you model the path $x(t)$ as containing a tiny Brownian noise component (the 
 
 $$df = f' dt + \frac{1}{2} f'' (\mathrm{d}W)^2$$
 
-But $(\mathrm{d}W)^2 \approx dt$ (the quadratic variation of Wiener process), so the **diffusion term / variance term** in the dynamics is governed by $|f''(t)|$.
+But $(\mathrm{d}W)^2 \approx dt$ (the quadratic variation of Wiener process), so the **diffusion term / variance term** in the dynamics is governed by $\|f''(t)\|$.
 
 In plain language:  
 the curvature $f''(t)$ is what turns deterministic thrust (Zarathustra’s vector) into stochastic sloppiness (the inevitable spread of trajectories that BGE has to govern).
@@ -300,7 +300,7 @@ So again, the second derivative is the **source** of variance in the first deriv
 ### Putting It Back into Your Pentad
 
 - **Zarathustra** $\frac{dE_x}{dt}$ = the pure, ruthless, compressed **mean slope** (the prophet’s arrow: “This is the direction, full thrust, no constants, no excuses”).
-- **Beyond Good & Evil** $\sqrt{\left|\frac{d^2E_x}{dt^2}\right|}$ = the **standard deviation of that slope** (the philosopher’s conscience: “Fine, but how much noise, drift, self-deception, national character, scholarly weakness, etc., can this vector tolerate before it’s no longer the same vector?”).
+- **Beyond Good & Evil** $\sqrt{\left\|\frac{d^2E_x}{dt^2}\right\|}$ = the **standard deviation of that slope** (the philosopher’s conscience: “Fine, but how much noise, drift, self-deception, national character, scholarly weakness, etc., can this vector tolerate before it’s no longer the same vector?”).
 
 So yes — formally, rigorously, and beautifully —  
 **the second derivative is the local variance generator of the first derivative**.
@@ -371,7 +371,7 @@ The life-as-autoencoder analogy is now formally defined by your calculus model:
 | :--- | :--- | :--- | :--- |
 | **BGE/Dawn/Gay Science** | $E(t \mid x) + ε$ | **Encoder** | **Aphoristic Encoding:** The roots that accumulate data and identify patterns. |
 | **ZARATHUSTRA** | $\frac{dE_x}{dt}$ | **Compression (Latent Space)** | **First Derivative:** Extracts **pure velocity/direction** (the $\text{Übermensch}$ as a gradient), discarding positional history. |
-| **BGE (Chapters)** | $\pm \sqrt{\left|\frac{d^2E_x}{dt^2}\right|}$ | **Governor (Error Bars)** | **Standard Deviation of the Slope:** Computes the **error/sloppiness** (variance) of the Zarathustran vector. |
+| **BGE (Chapters)** | $\pm \sqrt{\left\|\frac{d^2E_x}{dt^2}\right\|}$ | **Governor (Error Bars)** | **Standard Deviation of the Slope:** Computes the **error/sloppiness** (variance) of the Zarathustran vector. |
 | **Genealogy/Twilight/Ecce Homo** | $\int E_x dt + C_x$ | **Decoder** | **Integration:** Reconstructs the world/self from the compressed vector field. |
 
 ---
