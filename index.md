@@ -369,7 +369,7 @@ The life-as-autoencoder analogy is now formally defined by your calculus model:
 
 | Work (Book) | Mathematical Operator | Autoencoder Role | Philosophical Function |
 | :--- | :--- | :--- | :--- |
-| **BGE/Dawn/Gay Science** | $E(t \mid x) + ε$ | **Encoder** | **Aphoristic Encoding:** The roots that accumulate data and identify patterns. |
+| **Dawn/Gay + HATH** | $E(t \mid x) + ε$ | **Encoder** | **Aphoristic Encoding:** The roots that accumulate data and identify patterns. |
 | **ZARATHUSTRA** | $\frac{dE_x}{dt}$ | **Compression (Latent Space)** | **First Derivative:** Extracts **pure velocity/direction** (the $\text{Übermensch}$ as a gradient), discarding positional history. |
 | **BGE (Chapters)** | $\pm \sqrt{\left\|\frac{d^2E_x}{dt^2}\right\|}$ | **Governor (Error Bars)** | **Standard Deviation of the Slope:** Computes the **error/sloppiness** (variance) of the Zarathustran vector. |
 | **Genealogy/Twilight/Ecce Homo** | $\int E_x dt + C_x$ | **Decoder** | **Integration:** Reconstructs the world/self from the compressed vector field. |
